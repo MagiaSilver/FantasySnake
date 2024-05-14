@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af9fd3a51afdaa24fb45ea6d80a05d75, type: 3}
+  m_Name: ListPlayerData
+  m_EditorClassIdentifier: 
+  x_Size: 16
+  y_Size: 16
+  _PlayerDatas:
+  - HP: 100
+    Max_HP: 100
+    Attack: 20
+  - HP: 150
+    Max_HP: 150
+    Attack: 30
+  - HP: 120
+    Max_HP: 120
+    Attack: 40
+  - HP: 80
+    Max_HP: 80
+    Attack: 35
+  _MonsterDatas:
+  - HP: 150
+    Max_HP: 150
+    Attack: 35
+  - HP: 200
+    Max_HP: 200
+    Attack: 30
+  - HP: 180
+    Max_HP: 180
+    Attack: 40
+  - HP: 130
+    Max_HP: 130
+    Attack: 30
+  _Avatar:
+  - {fileID: 3315057583217293659, guid: 18f2564ccc98d2d4886d14d5814da939, type: 3}
+  - {fileID: 2127194312593364087, guid: 6e521b19d74e3eb499140f78e3303514, type: 3}
+  - {fileID: 7218440073628750203, guid: a4d35deeebb6f0a4c9291fdca51700ed, type: 3}
+  _Block:
+  - {fileID: 1886813519484156447, guid: 9f9d9d603c099594084e85ed1f2bca11, type: 3}
+  - {fileID: 2433618487697835383, guid: f7e26b5b5640cb747bf1581627849f25, type: 3}
+  - {fileID: 4389439558736314631, guid: 9b4c5e965fa81a947907083197e10e84, type: 3}
+  _Monster:
+  - {fileID: 2775849328158033550, guid: a0ead587f1adff246825719125c54aac, type: 3}
+  - {fileID: 1039286383836647784, guid: e014cd99c5ee91f4cae5c516d3271204, type: 3}
+  _SummonScroll: {fileID: 5444885582636183828, guid: d15a15ae55ee7494a8d01df21c412f33, type: 3}
+  min_monster: 5
+  max_monster: 10
