@@ -370,7 +370,7 @@ public class SnakeGameManager : MonoBehaviour
     {
         int LV = 1;
         if (_Player.Count >= 5 && _Player.Count < 10) LV = 2;
-        else LV = 3;
+        if (_Player.Count > 10) LV = 3;
         return LV;
     }
     private void UpdateAllLevelPlayer()
